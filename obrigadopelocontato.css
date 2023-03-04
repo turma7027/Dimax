@@ -1,0 +1,59 @@
+/*OBRIGADO PELO CONTATO* CSS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #483D8B;
+	font-family: 'Poppins', sans-serif;
+}
+
+.obrigadopelocontato{
+	width: 800px;
+	height: 400px;
+	background: white;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px black;
+	text-align: center;
+	font-size: 20px;
+}
+
+button{
+	text-decoration: none;
+	color: #483D8B;
+	padding: 5px 10px;
+	font-size: 19px;
+	font-weight: bold;
+	border: 5px;
+	background: #d3d3d3;
+	border-radius: 5px;
+	transition: 0.2s;
+	font-family: 'Poppins', sans-serif;
+}
+
+button:hover{
+	color: white;
+	background: #483D8B;
+	font-size: 20px;
+	transition: 0.2s;
+}
+
+main{
+	display: flex;
+	justify-content: space-around;
+	margin: 5em;
+}
+
+
+footer{
+  text-align: center;
+  padding: 30px;
+  background-color: white;
+  color: #483D8B;
+}
+
+footer .Author{
+	color: black;
+}

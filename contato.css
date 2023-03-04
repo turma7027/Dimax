@@ -1,0 +1,93 @@
+/* CONTATO CSS */
+
+.estruturatexto{
+	display: grid;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin: 30px;
+	padding: 30px;
+	font-size: 20px;
+	
+}
+
+section{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px 10px ;
+	background: #483D8B;
+	width: 500px;
+}
+
+section form{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+form label{
+	color: white;
+	font-size: 17px;
+	margin-bottom: 4px;
+}
+
+form input{
+	padding: 15px;
+	outline: none;
+	border: 0;
+	margin-bottom: 20px;
+	font-size: 15px;
+	transition: all 0.5s;
+}
+
+form input:focus{
+	border-radius: 16px;
+}
+
+form textarea{
+	padding: 10px;
+	outline: none;
+	border: 0;
+	font-size: 15px;
+	margin-bottom: 30px;
+	transition: all 0.5s;
+}
+
+form textarea:focus{
+	border-radius: 16px;
+}
+
+/*.container{
+
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-size: 20px;
+	background: #483D8B;
+	border-radius: 10px;
+}*/
+
+
+
+
+button{
+	padding: 5px 5px;
+	font-size: 18px;
+	font-weight: bold;
+	border: 5px;
+	border-radius: 5px;
+	color: #483D8B;
+	background-color: #D3D3D3;
+	transition: 0.1s
+}
+
+button:hover{
+	color: #483D8B;
+	background-color: white;
+	font-size: 20px;
+	transition: 0.1s;

@@ -1,0 +1,95 @@
+
+<!--PRODUTOS HTML-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<link rel="stylesheet" type="text/css" href="produtos.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<link rel="icon" href="dmxlogo1.png">
+	<title>Produtos - Dimax</title>
+</head>
+<body>
+
+	<header>
+		<img src="dmxlogo1.png" class="logodmx1">
+		<img src="dmxlogo2.png" class="logodmx2">
+
+		<ul>
+			<li><a href="home.html">HOME</a></li>
+			<li><a href="produtos.html">PRODUTOS</a></li>
+			<li><a href="contato.html">CONTATO</a></li>
+		</ul>
+
+		<a href="cadastre-se.html" class="log">CADASTRE-SE</a>
+	</header>
+	
+	<div class="estruturatexto">
+		<h1>Produtos disponíveis</h1>
+		<p>CONFIRA!</p>
+		<br>
+
+		<div class="carrosel">
+			<div class="swiper">
+				<div class="swiper-wrapper">
+					
+					<!-- Slides Roupas -->
+					 <div class="swiper-slide rendondo"><img src="roupas.png"></div>
+				    <div class="swiper-slide painel"><img src="camisetathrasher.png"></div>
+				    <div class="swiper-slide"><img src="shortjeans.png"></div>
+				    <div class="swiper-slide"><img src="calçacargo.png"></div>
+				    <div class="swiper-slide"><img src="casacochicago.png"></div>
+				    <div class="swiper-slide"><img src="acessórios.png"></div>
+				    <div class="swiper-slide"><img src="relogioinvicta.png"></div>
+				    <div class="swiper-slide"><img src="perfumeonemillion.png"></div>
+				    <div class="swiper-slide"><img src="boné.png"></div>
+				    <div class="swiper-slide"><img src="brincovivara.png"></div>
+				</div>
+
+		  <!-- If we need pagination -->
+		  <div class="swiper-pagination"></div>
+
+		  <!-- If we need navigation buttons -->
+		  <div class="swiper-button-prev"></div>
+		  <div class="swiper-button-next"></div>
+
+		  <!-- If we need scrollbar -->
+		  <div class="swiper-scrollbar"></div>
+		</div>
+
+	</div>
+		<!--<h4>Nenhuma Informação...</h4>-->
+		
+
+	</br>
+</div>
+
+	<footer>
+  		<p>Author: Anthony Lima e alunos Digital Max, direction of Luiz Felipe.<br>
+  		<p><b>Copyright © 2023. Todos os direitos reservados.</b></p>
+  		</p>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script type="text/javascript">
+
+		const swiper = new Swiper('.swiper', {
+			spacebetween: 10,
+			slidesPerView: 1,
+			pagination: {
+				el: '.swiper-pagination',
+				type: 'bullets',
+			},
+			navigation: {
+		    	nextEl: '.swiper-button-next',
+		    	prevEl: '.swiper-button-prev',
+  },
+
+  });
+
+</script>
+</body>
+</html>

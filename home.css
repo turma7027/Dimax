@@ -1,0 +1,144 @@
+/* HOME CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: white;
+
+}
+
+header{
+	height: 75px;
+	background-color: #483D8B;
+	box-shadow: 0px 3px 10px #483D8B;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+
+header ul li{
+	display: inline;
+	padding-right: 30px;
+	margin: 0 50px;
+	border-radius: 5px;
+
+}
+.log{
+	position: absolute;
+	right: 20px;
+	top: 18px;
+	border: 2px solid white;
+}
+a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 10px;
+	font-size: 18px;
+	font-weight: bold;
+	border: 5px;
+	border-radius: 5px;
+	transition: 0.2s;
+}
+a:hover{
+	color: #483D8B;
+	background-color: white;
+	font-size: 20px;
+	transition: 0.3s;
+}
+main{
+	display: flex;
+	justify-content: space-around;
+	margin: 5em;
+}
+.promocoes{
+	width: 800px;
+	height: 400px;
+	background: #483D8B;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px black;
+}
+
+.textopromocoes{
+	text-align: center;
+	justify-content: center;
+	padding: 90px;
+	color: white;
+}
+
+.textopromocoes1{
+	text-align: center;
+	justify-content: center;
+	padding: 50px;
+	color: white;
+	font-size: 30px;
+	
+}
+
+.produtos{
+	width: 200px;
+	height: 400px;
+	background: #483D8B;
+}
+
+.produtos p{
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	justify-content: center;
+	padding: 20px;
+}
+
+.imgprodutos{
+	display: block;
+  	margin: 0px auto;
+	width: 150px;
+}
+
+p.valorproduto{
+	font-style: italic;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+p.avista{
+	margin: -40px;
+	font-size: 15px;
+}
+
+p.parcelamento{
+	font-size: 15px;
+}
+
+footer{
+  text-align: center;
+  padding: 40px;
+  background-color: #483D8B;
+  color: white;
+}
+
+.logodmx1{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top: -5.0px;
+	left: 2px;
+}
+
+.logodmx2{
+	width: 200px;
+	height: 70px;
+	position: absolute;
+	top: 1.5px;
+	left: 70px;
+}
+
+
+
+
